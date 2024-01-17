@@ -16,7 +16,7 @@ public class Cso extends TomorHenger{
     }
     
     public Cso(double sugar, double magassag, double fajsuly, double falvastagsag) {
-        super(fajsuly, sugar, magassag);
+        super(sugar, magassag, fajsuly);
         this.falvastagsag=falvastagsag;
     }
 
